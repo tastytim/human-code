@@ -1,0 +1,19 @@
+CONTESTO: ci troviamo su un marciapiede e dobbiamo attraversare la strada
+1-controlliamo se ci sono le strisce
+    1.1 se non ci sono stisce continuaiamo finchè le troviamo
+    1.2 se ci sono, ci avviciniamo alle strisce
+2- c'è un semaforo?
+    2.1- si
+        2.1.1- è verde?
+            2.1.1.1- si (vai al 2.2)
+            2.1.1.2- no (vai al 2.1.1)
+    2.2- ci sono macchine?
+        2.2.1- si, (torna al 2.2)
+        2.2.2- no, (vai al punto 3)
+3- attraversiamo
+4-arriviamo dall'altra parte
+VARIABILI: 
+- colore
+- strisce;
+- semaforo;
+- macchine;
